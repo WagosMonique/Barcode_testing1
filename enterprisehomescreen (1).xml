@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk>
+    <application label="CpConcierge" package="com.datalogistics.cpconcierge" activity="com.datalogistics.cpconcierge.main.MainActivity"/>
+  </kiosk>
+  <applications>
+    <application label="CpConcierge" package="com.datalogistics.cpconcierge" activity="com.datalogistics.cpconcierge.main.MainActivity"/>
+  </applications>
+  <tools>
+    <application label="CpConcierge" package="com.datalogistics.cpconcierge" activity="com.datalogistics.cpconcierge.main.MainActivity"/>
+  </tools>
+  <passwords>
+    <admin attempts="1"/>
+  </passwords>
+  <user_options/>
+  <preferences>
+    <orientation/>
+    <wallpaper/>
+    <usb_debugging_disabled>0</usb_debugging_disabled>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <recent_apps_button_disabled>0</recent_apps_button_disabled>
+    <auto_launch_enable>0</auto_launch_enable>
+    <service_auto_launch_enable>0</service_auto_launch_enable>
+    <keyguard_search_disabled>1</keyguard_search_disabled>
+    <system_settings_restricted>0</system_settings_restricted>
+    <recent_apps_access_disabled>0</recent_apps_access_disabled>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <fullscreen>1</fullscreen>
+    <keyguard_camera_disabled>1</keyguard_camera_disabled>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>Enterprise Home Screen</title>
+    <admin_lock_out>
+      <recovery_enabled>1</recovery_enabled>
+    </admin_lock_out>
+    <screen_blanking>
+      <blanking_enabled>0</blanking_enabled>
+      <speed_threshold>10</speed_threshold>
+      <blanking_mode>1</blanking_mode>
+    </screen_blanking>
+  </preferences>
+</config>
